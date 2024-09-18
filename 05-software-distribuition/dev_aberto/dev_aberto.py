@@ -1,6 +1,5 @@
 import requests
 
-
 def hello():
     username = input('Digite seu usuário: ')
     c = requests.get('https://api.github.com/repos/insper/dev-aberto/commits')
